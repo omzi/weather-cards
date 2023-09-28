@@ -1,4 +1,5 @@
-import './app.css';
+import '#/styles/fonts.css';
+import '#/styles/app.css';
 import type { Metadata } from 'next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 

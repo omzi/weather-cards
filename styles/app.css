@@ -70,7 +70,7 @@ body {
   font-size: 4rem;
   margin-top: 15px;
   margin-bottom: 5px;
-  font-family: 'SF Pro Display Regular';
+  font-family: 'SF Pro Display Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.375px;
@@ -78,7 +78,7 @@ body {
 
 .weather-card .left-side p,
 .weather-card .right-side p {
-  font-family: 'SF Pro Text Regular';
+  font-family: 'SF Pro Text Regular', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   /* font-size: 0.8125rem; */
   font-size: 1.25rem;
   font-style: normal;
