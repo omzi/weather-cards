@@ -79,7 +79,7 @@ body {
 .weather-card .left-side p,
 .weather-card .right-side p {
   font-family: 'SF Pro Text Regular';
-  font-size: 0.8125rem;
+  /* font-size: 0.8125rem; */
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -104,4 +104,29 @@ body {
   margin-top: 10px;
   margin-right: 10px;
   line-height: inherit;
+}
+
+/* Responsive Styles */
+@media (max-width: 576px) {
+  .weather-card {
+    padding: 20px;
+    height: 200px;
+  }
+
+  .weather-card .left-side h3 {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+
+  .weather-card .left-side p,
+  .weather-card .right-side p {
+    font-size: 1rem;
+  }
+
+  .weather-card .right-side img {
+    /* margin-top: -20px; */
+    height: 110px;
+    width: auto;
+  }
 }
