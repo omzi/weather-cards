@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const metadata: Metadata = {
   title: 'Weather Cards',
-  description: '...',
+  description: 'A dynamic weather card application built with Next.js 13 and Open Meteo API 😍⚡.'
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
