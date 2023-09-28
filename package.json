@@ -14,7 +14,8 @@
     "next": "latest",
     "react": "latest",
     "react-bootstrap": "^2.8.0",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "sharp": "^0.32.6"
   },
   "devDependencies": {
     "@types/node": "latest",
