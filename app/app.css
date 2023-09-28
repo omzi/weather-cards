@@ -89,7 +89,8 @@ body {
 
 .weather-card .left-side p.high-low {
   color: rgba(235, 235, 245, 0.60);
-  margin-bottom: 35px;
+  line-height: inherit;
+  margin-bottom: 18px;
 }
 
 .weather-card .right-side {
