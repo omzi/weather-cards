@@ -59,6 +59,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  min-width: 0;
 }
 
 .weather-card .left-side {
@@ -85,6 +86,7 @@ body {
   font-weight: 400;
   line-height: 0;
   letter-spacing: -0.078px;
+  white-space: nowrap;
 }
 
 .weather-card .left-side p.high-low {
