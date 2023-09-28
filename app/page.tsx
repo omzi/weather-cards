@@ -1,6 +1,6 @@
 'use client';
 
-import styles from './page.module.css';
+import './page.module.css';
 import WeatherCard from '#/components/WeatherCard';
 import { defaultLocations } from '#/lib/constants';
 import { Button, Container, Row, Col } from 'react-bootstrap';
