@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+body {
+  color: #fff;
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+}
+
 .icon-button {
   border-radius: 50%;
   padding: .5rem;
